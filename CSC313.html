@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>First Assignment</title>
+  <script>
+    
+    function changeName() {
+      let newName = prompt("Enter a new name:");
+      if (newName) {
+        document.getElementById("mainHeading").innerText = "Hello " + newName + "!";
+      }
+    }
+
+  
+    
+  </script>
+</head>
+<body>
+  <h1 id="mainHeading">Hello World!</h1>
+
+
+  <button onclick="changeName()">Change Name</button>
+
+
+ 
+</body>
+</html>
